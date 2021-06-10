@@ -1,0 +1,9 @@
+<p>parkings works!</p>
+<div *ngFor="let parking of parkings">
+    <div> Nom : {{parking.nom}}</div>
+    <div> Statut : {{parking.statut}}</div>
+    <div> Places total : {{parking.nbPlaceTotal}}</div>
+    <div> Places disponibles : {{parking.nbPlaceDispo}}</div>
+    <div> Coordonnées : ({{parking.location[0]}} , {{parking.location[1]}})</div>
+    <div> Dernière mise à jour : {{parking.heureMaj}}</div>
+</div>
